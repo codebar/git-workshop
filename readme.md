@@ -47,4 +47,4 @@ Navigate to the page of the repository, in this case the original [codebar blog 
 
 ###Congratulations you have just done your first pull request :) 
 
-## You may want to refer to this [file](https://github.com/KimberleyCook/git-commands) for more git commands throughout the day. 
+#### You may want to refer to this [file](https://github.com/KimberleyCook/git-commands) for more git commands throughout the day. 
