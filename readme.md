@@ -46,6 +46,6 @@ $ git add .
 
 Now that your code is pushed to origin you can do the pull request.
 
-Navigate to the page of the repository, ,n this case the original [codebar blog page](https://github.com/codebar/blog). You should see a prompt telling you to do a pull request, click that prompt. You will be navigated to a page that will ask you to describe what you did in the pull request, and the orinal branch that you are comparing against. Complete all required fields and click submit. 
+Navigate to the page of the repository, in this case the original [codebar blog page](https://github.com/codebar/blog). You should see a green prompt at the top of the page asking you to 'compare and pull request', click that prompt. You will then be navigated to a page that will ask you to describe what you did in the pull request, and the original branch that you are comparing against. Complete all of these required fields and click 'create pull request'. 
 
-###Congrats you have just done your first pull request :)
+###Congratulations you have just done your first pull request :)
