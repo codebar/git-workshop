@@ -16,7 +16,6 @@ Once you have the repo on your machine you will want to create a new branch to c
 
 ```
 $ git checkout -b [new-branch-name]
-
 ```
 
 This branch is where all your code amends will live untill merged in.
@@ -33,13 +32,11 @@ $ git add [file-name-you-changed]
 $ git commit -m 'Here you can put a message of the changes you made'
 
 $ git push -u origin [branch-name]
-
 ```
  If you have made multiple file amends you may want to do the following to add many files:
 
 ```
 $ git add .
- 
 ```
 
 ### Creating the pull request
@@ -48,4 +45,6 @@ Now that your code is pushed to origin you can do the pull request.
 
 Navigate to the page of the repository, in this case the original [codebar blog page](https://github.com/codebar/blog). You should see a green prompt at the top of the page asking you to 'compare and pull request', click that prompt. You will then be navigated to a page that will ask you to describe what you did in the pull request, and the original branch that you are comparing against. Complete all of these required fields and click 'create pull request'. 
 
-###Congratulations you have just done your first pull request :)
+###Congratulations you have just done your first pull request :) 
+
+## You may want to refer to this [file](https://github.com/KimberleyCook/git-commands) for more git commands throughout the day. 
