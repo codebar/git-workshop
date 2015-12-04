@@ -16,11 +16,11 @@ Once this is forked onto your machine you will need to pull the **24PR-workshop-
 $ git checkout -b 24PR-workshop-post origin/24PR-workshop-post
 ```
 
-This is pulling down a branch that is currently not merged into master.
+This pulls down a branch that is currently not merged into master.
 
 ##Creating a new branch
 
-You will now neeed to create your own banch yso that you can change some code.
+You will now need to create your own banch that you can change some code on.
 
 ```
 $ git checkout -b [new-branch-name]
