@@ -8,11 +8,19 @@ The purpose of Git is to manage a project, or a set of files, as they change ove
 
 Forking a repo allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
 
-Go onto the [codebar blog](https://github.com/codebar/blog) and fork the repo into a folder on your machine.
+Go onto the [codebar blog](https://github.com/codebar/blog) and fork the repo (top right of the webpage) into a folder on your machine.
+
+Once this is forked onto your machine you will need to pull the **24PR-workshop-post** branch. To do this:
+
+```
+$ git checkout -b 24PR-workshop-post origin/24PR-workshop-post
+```
+
+This is pulling down a branch that is currently not merged into master.
 
 ##Creating a new branch
 
-Once you have the repo on your machine you will want to create a new branch to change some code.
+You will now neeed to create your own banch yso that you can change some code.
 
 ```
 $ git checkout -b [new-branch-name]
@@ -22,7 +30,7 @@ This branch is where all your code amends will live untill merged in.
 
 ### Adding/Committing and pushing
 
-For this tutorial there is a file in source/posts/[file to change], please add your name and a little paragraph about your coding experience to date.
+For this tutorial there is a file `source/posts/2015-12-04-24-pull-requests.markdown`, please add your name and a little paragraph about your coding experience to date.
 
 In order for your changed code to be visible to the original developer you will need to add your changes to your local repo, commit them to the local repo then push them to the remote(original) repo. 
 
