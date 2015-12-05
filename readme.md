@@ -8,9 +8,15 @@ The purpose of Git is to manage a project, or a set of files, as they change ove
 
 Forking a repo allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
 
-Go onto the [codebar blog](https://github.com/codebar/blog) and fork the repo (top right of the webpage) into a folder on your machine.
+Go onto the [codebar blog](https://github.com/codebar/blog) and fork the repo (top right of the webpage). This will create a copy of the repo on your own Github account, at github.com/[YourUserName]/blog.
 
-Once this is forked onto your machine you will need to pull the **24PR-workshop-post** branch. To do this:
+Once this is done, you'll need to clone your forked repo into a folder on your machine so you can work on it:
+
+```
+$ git clone https://github.com/[YourUserName]/blog.git
+```
+
+Once this is cloned onto your machine you will need to open the `blog` folder and pull the **24PR-workshop-post** branch. To do this:
 
 ```
 $ git checkout -b 24PR-workshop-post origin/24PR-workshop-post
