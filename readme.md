@@ -1,10 +1,10 @@
 # Git Workshop for 24 Pull Requests
 
-###Repository
+### Repository
 
 The purpose of Git is to manage a project, or a set of files, as they change over time. Git stores this information in a data structure called a repository, commonly shortened to repo.
 
-###Forking
+### Forking
 
 Forking a repo allows you to freely experiment with changes without affecting the original project. Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
 
@@ -24,7 +24,7 @@ $ git checkout -b 24PR-workshop-post origin/24PR-workshop-post
 
 This pulls down a branch that is currently not merged into master.
 
-##Creating a new branch
+## Creating a new branch
 
 You will now need to create your own banch that you can change some code on.
 
@@ -59,6 +59,6 @@ Now that your code is pushed to origin you can do the pull request.
 
 Navigate to the page of the repository, in this case the original [codebar blog page](https://github.com/codebar/blog). You should see a green prompt at the top of the page asking you to 'compare and pull request', click that prompt. You will then be navigated to a page that will ask you to describe what you did in the pull request, and the original branch that you are comparing against. Complete all of these required fields and click 'create pull request'. 
 
-###Congratulations you have just done your first pull request :) 
+### Congratulations you have just done your first pull request :) 
 
 #### You may want to refer to this [file](https://github.com/KimberleyCook/git-commands) for more git commands throughout the day. 
